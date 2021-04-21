@@ -21,7 +21,11 @@ class Uiproto extends StatelessWidget {
           BottomNavigationBarItem(
               icon: Icon(Icons.home),
               title: Text('Home'),
-              backgroundColor: Colors.green[900])
+              backgroundColor: Colors.green[900]),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.person),
+              title: Text('Account'),
+              backgroundColor: Colors.green[900]),
         ],
       ),
     ));
